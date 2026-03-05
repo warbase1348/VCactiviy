@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aquatic Life Webpage</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background: #2c3e50;
+  padding: 15px 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  line-height: 1.6;
+  color: #333;
+}
+
+.intro h1 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: #1abc9c;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #16a085;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
+
+@media (max-width: 650px) {
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+</head>
+
+<body>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<main>
+  <div class="intro">
+    <h1>Welcome to our Aquatic Life Webpage</h1>
+    <p>Dive into the fascinating world beneath the waves, where vibrant fish, graceful marine mammals, and stunning underwater ecosystems thrive. Explore educational content, captivating images, and fun facts about the incredible diversity of life in our oceans, rivers, and lakes.</p>
+  </div>
+
+  <div class="card-row">
+    <div class="card">
+      <img src="3.png" alt="Card One">
+      <div class="card-content">
+        <h3>Baby Shark</h3>
+        <p>Baby shark, doo, doo, doo, doo, doo, doo
+Baby shark, doo, doo, doo, doo, doo, doo
+Baby shark, doo, doo, doo, doo, doo, doo
+Baby shark!</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="1.png" alt="Card Two">
+      <div class="card-content">
+        <h3>Daddy Shark</h3>
+        <p>Daddy shark, doo, doo, doo, doo, doo, doo
+Daddy shark, doo, doo, doo, doo, doo, doo
+Daddy shark, doo, doo, doo, doo, doo, doo
+Daddy shark!
+</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="2.png" alt="Card Three">
+      <div class="card-content">
+        <h3>Mommy Shark</h3>
+        <p>Mommy shark, doo, doo, doo, doo, doo, doo
+Mommy shark, doo, doo, doo, doo, doo, doo
+Mommy shark, doo, doo, doo, doo, doo, doo
+Mommy shark!
+</p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2026 Aquatic Life Webpage
+</footer>
+</body>
+</html>
