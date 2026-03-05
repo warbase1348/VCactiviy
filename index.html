@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Navbar and Footer</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+nav{
+  background:#333;
+  padding:10px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:10px;
+}
+
+main{
+  flex:1;
+  padding:20px;
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+</style>
+
 </head>
+
 <body>
-    sge
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+
+<main>
+<h1>Welcome</h1>
+<p>This is a simple navbar example.</p>
+</main>
+
+<footer>
+© 2026 My Website
+</footer>
+
 </body>
 </html>
